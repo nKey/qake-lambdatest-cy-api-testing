@@ -1,0 +1,13 @@
+{
+    "devDependencies": {
+        "cypress": "^9",
+        "cypress-xpath": "^2.0.1"
+    },
+    "scripts": {
+        "test": "cypress run --browser chrome --env host=https://jsonplaceholder.typicode.com/,api=https://jsonplaceholder.typicode.com/ --config video=false --spec **/*.spec.js",
+        "test:watch": "cypress open  --env host=https://jsonplaceholder.typicode.com/,api=https://jsonplaceholder.typicode.com/"
+    },
+    "dependencies": {
+        "lambdatest-cypress-cli": "^2.5.4"
+    }
+}

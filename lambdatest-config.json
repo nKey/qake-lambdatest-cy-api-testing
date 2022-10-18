@@ -1,0 +1,32 @@
+{
+    "lambdatest_auth": {
+        "username": "jose.malty",
+        "access_key": "S4LAzsTrjTNR96kvDvpgAS0X5h3jLJQGpcEFzwIQf279mXrxoJ"
+    },
+    "browsers": [
+        {
+            "browser": "Chrome",
+            "platform": "Windows 10",
+            "versions": ["latest"]
+        }
+    ],
+    "run_settings": {
+        "cypress_config_file": "cypress.json",
+        "build_name": "firstTest",
+        "parallels": 1,
+        "specs": "./cypress/integration/jsonplaceholder/index.spec.js, ./cypress/integration/jsonplaceholder/api/comments.spec.js, ./cypress/integration/jsonplaceholder/api/users.spec.js",
+        "ignore_files": "Jenkinsfile",
+        "feature_file_suppport": false,
+        "network": true,
+        "headless": false,
+        "reporter_config_file": "",
+        "npm_dependencies": {
+            "cypress": "9.7.0",
+            "cypress-xpath": "2.0.1"
+        }
+    },
+    "tunnel_settings": {
+        "tunnel": false,
+        "tunnel_name": null
+    }
+}

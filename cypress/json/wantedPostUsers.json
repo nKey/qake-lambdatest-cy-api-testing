@@ -1,0 +1,23 @@
+{
+  "name": "José Malty Soares",
+  "username": "jose.malty",
+  "email": "jose.malty@nkey.com.br",
+  "address": {
+    "street": "Rua Sérgio Cândido",
+    "suite": "169",
+    "city": "Florianópolis",
+    "zipcode": "88047-560",
+    "geo": {
+      "lat": "-27.6593",
+      "lng": "-48.5395"
+    }
+  },
+  "phone": "+55 48988339048",
+  "website": "josemalty.com.br",
+  "company": {
+    "name": "Nkey",
+    "catchPhrase": "Beyond the Code!",
+    "bs": "Alem do Codigo"
+  },
+  "id": 11
+}

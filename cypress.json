@@ -1,0 +1,10 @@
+{
+	"ignoreTestFiles": "**/pagesObjects/*.js",
+	"viewportWidth": 1980,
+	"viewportHeight": 1080,
+	"watchForFileChanges": false,
+	"projectId": "qdnokb",
+	"chromeWebSecurity": false,
+	"failOnStatusCode": false,
+	"experimentalSessionAndOrigin": true
+}
